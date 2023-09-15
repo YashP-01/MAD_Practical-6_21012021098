@@ -7,9 +7,10 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
 
+        android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -19,24 +20,23 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="360dp"
         android:text="Play"
-        app:layout_constraintTop_toBottomOf="wrap content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-
-
-        tools:layout_editor_absoluteX="192dp"
-        tools:layout_editor_absoluteY="778dp" />
+        app:layout_constraintRight_toRightOf="parent" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Pause"
-        app:layout_constraintTop_toBottomOf="wrap content"
+        app:layout_constraintTop_toTopOf="@+id/button"
+        android:layout_marginTop="75dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        tools:layout_editor_absoluteX="193dp"
-        tools:layout_editor_absoluteY="884dp" />
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="396dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
