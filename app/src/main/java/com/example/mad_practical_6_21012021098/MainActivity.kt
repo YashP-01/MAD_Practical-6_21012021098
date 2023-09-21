@@ -13,8 +13,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        var button:FloatingActionButton = findViewById(R.id.button)
-        var button1:FloatingActionButton = findViewById(R.id.button2)
+        var button:FloatingActionButton = findViewById(R.id.play_btn)
+        var button1:FloatingActionButton = findViewById(R.id.stop_btn)
         button.setOnClickListener { playpause() }
         button1.setOnClickListener { stop() }
     }
